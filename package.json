@@ -1,0 +1,28 @@
+{
+  "name": "vite-template-vuetify",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
+    "prettier": "prettier . --write --ignore-path ./package-lock.json"
+  },
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vuetify": "^3.3.21"
+  },
+  "devDependencies": {
+    "vite": "^4.4.5",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite-plugin-vuetify": "^1.0.2",
+    "@rodrive/console-vlog": "^1.0.0",
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-vue": "^9.17.0",
+    "prettier": "^3.0.3",
+    "sass": "^1.69.3"
+  }
+}
